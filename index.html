@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lumos Tech</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+      
+        <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-1 m-0 p-0">Lumos Tech</h1>
+            <hr class="mt-2">
+            <p class="lead my-4">Can You Hear Me Now? Good.</p>
+            
+            <h1 class="display-5 font-weight-bold mt-3"> Sign in to Lumos</h1>
+            <form  method="GET" action="./welcome.html" class="shadow-lg p-3 mt-5 rounded-lg">
+            
+                <div class="form-group">
+                        <label for="loginEmail" class="">Enter your email</label>
+                        <input type="email" placeholder="ex: name@xyz.com" id="loginEmail" class="form-control email" required />                    
+                </div>            
+                
+                <div class="form-group">
+                        <label for="loginPassword" class="">Enter your password</label>
+                        <input type="password" placeholder="ex: password" id="loginPassword" class="form-control password" required />                    
+                </div>
+                           
+                <button type="submit" class="btn btn-primary">Log in</button>
+                <div class="mt-3">
+                    <a class="" href="./signup.html">New around here? Sign up</a>
+                        
+                </div>
+                <div class="mt-1">
+                        <a class="" href="#">Forgot password?</a>
+                </div>                
+            </form>
+            <div class="alert alert-danger invisible incorrectAlert mt-1"  role="alert"></div>
+        </div>
+        </div>        
+    
+    
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    <script src="submit.js"></script>
+</body>
+</html>

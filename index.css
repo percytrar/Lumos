@@ -1,0 +1,14 @@
+body{
+    background-color: #E9ECEF
+}
+.loginbox{
+    border-radius: 5%
+}
+
+a{
+   text-decoration: none; 
+}
+a:hover, a:active{
+    color: red;
+    text-decoration: none;
+}
